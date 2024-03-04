@@ -38,16 +38,27 @@ main{
     flex-direction: column;
 }
 
-.top-logo-container{
-    width: 100%;
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.top-logo-container {
+  width: 30%;
+  height: fit-content; /* Change height to fit the content */
+  display: flex;
+  flex-direction: column; /* Change to column direction */
+  align-items: center;
+  
+  justify-content: center;
 }
 .top-logo-container img{
     width: 20%;
+    margin-top: 50px;
 }
+.logo-text {
+  color: #fff; 
+  font-size: 21px; 
+  margin-top: 10px; 
+  text-align: center; 
+  font-family: Orbitron;
+}
+
 .main-container{
     width: 100%;
     height: 80%;
@@ -60,7 +71,7 @@ main{
 }
 .input {
     color: #dbffb1;
-    border: 2px solid #c9ffcc;
+    border: 2px solid #c9fbff;
     /* border-radius: 10px; */
     padding: 10px 25px;
     background: transparent;
@@ -150,8 +161,8 @@ main{
 }
 .submit:hover{
     border-radius: 5px;
-    background: #6aff03;
-    color: white;
+    background: #5AF8F5;
+    color: black;
     border: 2px solid #000000;
 
 }
@@ -313,7 +324,7 @@ main{
   font-size: 1.3rem;
 }
 .download:hover{
-  background-color: #cbffa6;
+  background-color: #5AF8F5;
   color: black;
 }
 
@@ -378,7 +389,7 @@ main{
 }
 .footerContainer a{
   text-decoration: none;
-  color: #6aff03;
+  color: #5AF8F5;
 }
 .fa-copyright{
   font-size: 1.3rem;
